@@ -1,0 +1,73 @@
+@import url(./reset.css/);
+/*main Nav*/
+body> nav ul{
+    display: flex;
+    justify-content: space-around;
+   background: #2980b9
+}
+body>nav li{
+    padding: 1em;
+}
+body>nav a{
+    text-decoration: none;
+    color:orangered;
+}
+body>nav a:hover{
+    color: #2980b9;
+}
+  
+    
+/*header*/
+
+body> header{
+    height: 300px;
+    background:url(../images/cody-hiscox-7wFxYC8D5oc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: black;
+    
+}
+body>header h1{
+    font-size: 3.4em;
+
+}
+    body>header h2{
+        font-size: 2.1em;
+    }
+     
+button{
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+    color: beige;
+}
+/*main*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+}
+article{
+    width: 200px;
+    padding: 1em;
+}
+article img{
+    width: 100%;
+}
+#content{
+    display: flex;
+}
+aside{
+    width: 30%;
+    order: 1;
+}
+footer url{
+    display: flex;
+    justify-content: center;
+}
